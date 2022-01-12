@@ -1,0 +1,22 @@
+.form {
+  border: 1px solid black;
+  width: 400px;
+  padding: 10px;
+}
+
+.form > label {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  font-weight: 500;
+}
+
+.button {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: blue;
+  color: white;
+}
